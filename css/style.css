@@ -1,0 +1,71 @@
+body{
+
+  flex-direction: column;
+}
+
+#menu ul{
+  margin: 0;
+  background-color: black;
+  list-style: none;
+}
+
+#menu ul li{
+  display: inline;
+}
+
+#menu ul li a{
+  padding: 10px 10px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+#menu ul li a:hover{
+  color: gray;
+}
+
+.produtos{
+  display: flex;
+  margin-top: 10px;
+}
+
+.produto{
+  padding-bottom: 0;
+  display: inline;
+  margin-right: 10px;
+}
+
+.produto a{
+  text-decoration: none;
+}
+
+
+.produto p {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px 10px;
+}
+.produto p:hover {
+  color: gray;
+}
+
+.icone {
+  margin: 0;
+  width: 200px;
+  height: 150px;
+}
+
+.rodape{
+  position: absolute;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  display: flex;
+  bottom:0;
+  width:100%;
+  background-color: black;
+}
+
